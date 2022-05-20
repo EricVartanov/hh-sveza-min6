@@ -1,0 +1,145 @@
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: unset;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /* ******head*** */
+
+    .idc-head .idc-circles {
+        width: 38%;
+    }
+    .idc-subhead .idc-logo {
+        margin-right: 70px;
+    }
+    .idc-subhead .idc-text-b {
+        margin-left: 55px;
+    }
+    /* ******info**** */
+    .idc-info p > strong {
+        font-size: 16px;
+        line-height: 19px;
+    }
+    .idc-info ul {
+        margin-top: 20px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 50px;
+    }
+
+    /* ******footer**** */
+    .idc-footer .idc-video-frame {
+        height: 287px;
+    }
+}
+
+@media (max-width: 699px) {
+    /* ******head*** */
+    .idc-head .idc-container {
+        height: 66vw;
+    }
+    /* ******subhead*** */
+    .idc-subhead .idc-bgwrapper {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .idc-subhead .idc-block {
+        width: 100%;
+    }
+    .idc-subhead .idc-block:first-child {
+        border-right: 2px solid #000000;
+        border-bottom: 1px solid #000000;
+        height: 60px;
+    }
+    .idc-subhead .idc-block:last-child {
+        border-left: 2px solid #000000;
+        border-top: 1px solid #000000;
+        -webkit-box-flex: 1;
+        -ms-flex: 1;
+        flex: 1;
+    }
+    .idc-subhead .idc-content {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        height: auto;
+    }
+    .idc-logo-block,
+    .idc-text-block {
+        width: 100%;
+        margin: 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .idc-subhead .idc-logo,
+    .idc-subhead .idc-text-b {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .idc-subhead .idc-logo {
+        width: 111px;
+    }
+
+    /* ******about**** */
+    .idc-img-text {
+        padding: 24px 15px;
+    }
+    .idc-img-text .idc-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .idc-img-text .idc-title + .idc-title {
+        margin-top: 5px;
+    }
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .idc-info p > strong {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 40px;
+    }
+    .idc-info ul {
+        margin-top: 20px;
+    }
+
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .idc-info ul li::before {
+        top: 7px;
+        width: 4px;
+        height: 4px;
+    }
+
+    /* ******footer**** */
+    .idc-footer .idc-container {
+        padding-bottom: 25px;
+    }
+    .idc-footer .idc-video-frame {
+        height: 45vw;
+    }
+    .idc-footer .idc-title {
+        margin-top: 23px;
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .idc-footer .idc-title > span {
+        display: block;
+    }
+    .idc-footer .idc-ps {
+        margin-top: 30px;
+    }
+}
